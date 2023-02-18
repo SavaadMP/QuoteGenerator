@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2fc9ac;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.mainBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.QuoteBody {
+  padding: 20px;
+  background: #181823;
+  width: 40%;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.QuoteBody h2 {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.QuoteBody h3 {
+  font-size: 18px;
+  text-align: right;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.QuoteBody button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .QuoteBody {
+    padding: 20px;
+    background: #181823;
+    width: 80%;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 10%;
+  }
+}
